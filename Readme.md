@@ -12,6 +12,8 @@ npm install
 chmod 777 ./install.sh
 #运行脚本
 ./install.sh
+
+*脚本默认会在服务占用超过1G内存时重启 避免造成使用时间较长设备内存被完全占用的情况
 ```
 
 

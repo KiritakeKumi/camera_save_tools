@@ -20,6 +20,7 @@ systemctl daemon-reload
 
 echo "启用camera_save_tools服务"
 systemctl enable camera_save_tools
+systemctl set-property camera_save_tools.service MemoryLimit=1G
 
 echo "启动camera_save_tools服务"
 systemctl start camera_save_tools
